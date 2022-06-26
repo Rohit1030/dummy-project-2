@@ -1,0 +1,33 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 1rem;
+    background-color: antiquewhite;
+}
+
+.mobile-header-text {
+    margin: 0 auto;
+}
+
+.mobile-header-text > h1 {
+    line-height: 1;
+    text-align: center;
+}
+
+.car-img {
+    height: 180px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px){
+    .mobile-header-text > h1 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px){
+    .mobile-header-text > h1 {
+        font-size: 36px;
+    }
+}
